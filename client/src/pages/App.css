@@ -1,0 +1,197 @@
+src/App.css
+
+.layout {
+  background: linear-gradient(to bottom, #f0f4ff, #ffffff);
+  min-height: 100vh;
+}
+
+.header {
+  background-color: #ffffff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 32px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+  height: 64px;
+}
+
+.logo {
+  font-weight: bold;
+  font-size: 20px;
+  color: #001529;
+}
+
+.logo-sub {
+  color: #888;
+  font-weight: normal;
+}
+
+.nav-menu span {
+  margin: 0 12px;
+  font-weight: 500;
+  cursor: pointer;
+  color: #555;
+}
+
+.nav-menu .active {
+  color: #1677ff;
+  font-weight: bold;
+  border-bottom: 2px solid #1677ff;
+}
+
+.user-profile {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.main-content {
+  padding: 24px 48px;
+  background: #f9fbff;
+}
+
+.welcome-section {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  padding: 40px 0;
+}
+
+.welcome-text {
+  flex: 1;
+  min-width: 300px;
+}
+
+.welcome-text .highlight {
+  color: #1677ff;
+}
+
+.get-started {
+  margin-top: 16px;
+  background-color: #1677ff;
+  border: none;
+}
+
+.illustration-box {
+  flex: 1;
+  text-align: right;
+}
+
+.illustration {
+  max-width: 90%;
+  height: auto;
+  border-radius: 20px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
+}
+
+/* 🔥 UPDATED FILTER BAR TO MATCH IMAGE */
+
+.filters {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #fff;
+  padding: 10px 20px;
+  margin-bottom: 16px;
+  border-radius: 8px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.filters-left {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 12px;
+}
+
+.filters-right {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 12px;
+}
+
+.filter-select {
+  width: 130px;
+}
+
+.filter-avatar {
+  background-color: #87d068;
+  cursor: pointer;
+}
+
+.icons {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  font-size: 14px;
+  color: #555;
+}
+
+.icon-label {
+  margin: 0 4px;
+  font-weight: 500;
+}
+
+.total-text {
+  font-size: 14px;
+  color: #555;
+  white-space: nowrap;
+}
+
+.filter-search {
+  width: 160px;
+}
+
+.filter-date {
+  min-width: 220px;
+}
+
+.filter-checkbox {
+  font-size: 14px;
+}
+
+.clear-btn {
+  padding: 0 8px;
+}
+
+
+/* DEAL CARDS */
+
+.stage-collapse {
+  margin-bottom: 16px;
+  background: #fff;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.stage-header,
+.assignee-header {
+  display: flex;
+  justify-content: space-between;
+  padding-right: 12px;
+}
+
+.amount {
+  font-weight: 600;
+  color: #444;
+}
+
+.deal-row {
+  padding: 12px 0;
+  border-top: 1px solid #f0f0f0;
+}
+
+.deal-client {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.client-avatar {
+  background-color: #1677ff;
+  color: #fff;
+}

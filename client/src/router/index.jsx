@@ -5,15 +5,13 @@ import {
 } from "react-router-dom";
 
 import CompanyList from "../pages/CompanyList";
-import AddCompanyForm from "../pages/AddCompanyForm";
-import CompanyDetails from "../pages/CompanyDetails";
+import Home from "../pages/Home";
 
-import ProtectedRoute from "./ProtectedRoute";
 
 const router = createBrowserRouter([
   {
     path: "/",
-    element: <CompanyList />,
+    element: <Home />,
   },
   {
     path: "/add-company",
